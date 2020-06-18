@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="BEP_edge" targetName="BEP_edge" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b2bb9e-bc64-437c-80d0-05e0907df611" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1Y2nifO4z5qbyvk55ZsaxH9GAwD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Network" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BEP_edge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BEP_edge" TARGET_NAME="BEP_edge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BEP_edge" RUN_TARGET_NAME="BEP_edge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b2bb9e-bc64-437c-80d0-05e0907df611" name="Default Changelist" comment="" />
+      <created>1582149684336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582149684336</updated>
+      <workItem from="1582149685949" duration="3490000" />
+      <workItem from="1582205329139" duration="1467000" />
+      <workItem from="1584623533008" duration="3753000" />
+      <workItem from="1584632776597" duration="1376000" />
+      <workItem from="1584634200526" duration="1491000" />
+      <workItem from="1584720039425" duration="9714000" />
+      <workItem from="1585765475686" duration="599000" />
+      <workItem from="1586276009032" duration="4847000" />
+      <workItem from="1587474324101" duration="13817000" />
+      <workItem from="1588235849899" duration="6259000" />
+      <workItem from="1588284707216" duration="25000" />
+      <workItem from="1588284948679" duration="527000" />
+      <workItem from="1588424932748" duration="18394000" />
+      <workItem from="1590494684214" duration="22232000" />
+      <workItem from="1591348206548" duration="22442000" />
+      <workItem from="1591569234378" duration="16827000" />
+      <workItem from="1591864699989" duration="8008000" />
+      <workItem from="1592172363852" duration="15914000" />
+      <workItem from="1592349991129" duration="1820000" />
+      <workItem from="1592430053310" duration="5801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1641" y="704" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588426987199">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1641" y="704" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1588426987199" />
+    <state width="1232" height="402" key="GridCell.Tab.0.bottom" timestamp="1592435974368">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1872" height="229" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249012" />
+    <state width="1232" height="402" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974368" />
+    <state width="1232" height="403" key="GridCell.Tab.0.bottom/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
+    <state width="1232" height="402" key="GridCell.Tab.0.center" timestamp="1592435974367">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1872" height="229" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
+    <state width="1232" height="402" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1232" height="403" key="GridCell.Tab.0.center/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
+    <state width="1232" height="402" key="GridCell.Tab.0.left" timestamp="1592435974367">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1872" height="229" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
+    <state width="1232" height="402" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1232" height="403" key="GridCell.Tab.0.left/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
+    <state width="1232" height="402" key="GridCell.Tab.0.right" timestamp="1592435974367">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1872" height="229" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
+    <state width="1232" height="402" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1232" height="403" key="GridCell.Tab.0.right/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
+    <state x="2210" y="514" key="com.intellij.ide.util.TipDialog" timestamp="1592430058095">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1105" y="257" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591258679231" />
+    <state x="2210" y="514" key="com.intellij.ide.util.TipDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1592430058095" />
+    <state x="4127" y="490" key="com.intellij.ide.util.TipDialog/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591569235742" />
+    <state x="3008" y="0" width="832" height="2102" key="dock-window-1" timestamp="1588267564458">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1512" y="0" width="408" height="1022" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1586380441309" />
+    <state x="3008" y="0" width="832" height="2102" key="dock-window-1/0.0.3840.2160@0.0.3840.2160" timestamp="1588267564458" />
+    <state x="3050" y="503" key="run.anything.popup" timestamp="1588269441015">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3050" y="503" key="run.anything.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1588269441015" />
+    <state x="2863" y="494" width="672" height="678" key="search.everywhere.popup" timestamp="1591561096409">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2863" y="494" width="672" height="678" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1591561096409" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Other/mathextension.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
