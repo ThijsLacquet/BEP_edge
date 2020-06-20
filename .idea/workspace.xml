@@ -11,7 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b2bb9e-bc64-437c-80d0-05e0907df611" name="Default Changelist" comment="" />
+    <list default="true" id="54b2bb9e-bc64-437c-80d0-05e0907df611" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/FFT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/FFT.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/QAM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/QAM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/QAM.h" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/QAM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network/UDP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Network/UDP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/BEP_edge" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/BEP_edge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/BEP_edge.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +35,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y2nifO4z5qbyvk55ZsaxH9GAwD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -37,6 +56,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +99,7 @@
       <workItem from="1591864699989" duration="8008000" />
       <workItem from="1592172363852" duration="15914000" />
       <workItem from="1592349991129" duration="1820000" />
-      <workItem from="1592430053310" duration="5801000" />
+      <workItem from="1592430053310" duration="15333000" />
     </task>
     <servers />
   </component>
@@ -87,34 +107,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1641" y="704" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588426987199">
+    <state x="2652" y="661" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592520158448">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1641" y="704" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1588426987199" />
-    <state width="1232" height="402" key="GridCell.Tab.0.bottom" timestamp="1592435974368">
+    <state x="2652" y="661" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1592520158448" />
+    <state x="1635" y="656" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592663390400">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1635" y="656" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1592663390400" />
+    <state width="1617" height="402" key="GridCell.Tab.0.bottom" timestamp="1592663734745">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state width="1872" height="229" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249012" />
-    <state width="1232" height="402" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974368" />
+    <state width="1617" height="402" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1592663734745" />
     <state width="1232" height="403" key="GridCell.Tab.0.bottom/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
-    <state width="1232" height="402" key="GridCell.Tab.0.center" timestamp="1592435974367">
+    <state width="1617" height="402" key="GridCell.Tab.0.center" timestamp="1592663734744">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state width="1872" height="229" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
-    <state width="1232" height="402" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1617" height="402" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1592663734744" />
     <state width="1232" height="403" key="GridCell.Tab.0.center/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
-    <state width="1232" height="402" key="GridCell.Tab.0.left" timestamp="1592435974367">
+    <state width="1617" height="402" key="GridCell.Tab.0.left" timestamp="1592663734744">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state width="1872" height="229" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
-    <state width="1232" height="402" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1617" height="402" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1592663734744" />
     <state width="1232" height="403" key="GridCell.Tab.0.left/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
-    <state width="1232" height="402" key="GridCell.Tab.0.right" timestamp="1592435974367">
+    <state width="1617" height="402" key="GridCell.Tab.0.right" timestamp="1592663734744">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state width="1872" height="229" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1591001249011" />
-    <state width="1232" height="402" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1592435974367" />
+    <state width="1617" height="402" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1592663734744" />
     <state width="1232" height="403" key="GridCell.Tab.0.right/1920.0.3840.2160/0.0.1920.1080@1920.0.3840.2160" timestamp="1591715112118" />
+    <state width="1617" height="765" key="GridCell.Tab.1.bottom" timestamp="1592605130524">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1617" height="765" key="GridCell.Tab.1.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1592605130524" />
+    <state width="1617" height="765" key="GridCell.Tab.1.center" timestamp="1592605130524">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1617" height="765" key="GridCell.Tab.1.center/0.0.3840.2160@0.0.3840.2160" timestamp="1592605130524" />
+    <state width="1617" height="765" key="GridCell.Tab.1.left" timestamp="1592605130523">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1617" height="765" key="GridCell.Tab.1.left/0.0.3840.2160@0.0.3840.2160" timestamp="1592605130523" />
+    <state width="1617" height="765" key="GridCell.Tab.1.right" timestamp="1592605130524">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1617" height="765" key="GridCell.Tab.1.right/0.0.3840.2160@0.0.3840.2160" timestamp="1592605130524" />
+    <state x="1132" y="703" key="SettingsEditor" timestamp="1592663340210">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1132" y="703" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1592663340210" />
     <state x="2210" y="514" key="com.intellij.ide.util.TipDialog" timestamp="1592430058095">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -134,16 +178,5 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="2863" y="494" width="672" height="678" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1591561096409" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Other/mathextension.cpp</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

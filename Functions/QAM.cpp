@@ -1,9 +1,7 @@
 #include "QAM.h"
-#include <stdexcept>
 #include <math.h>
 #include <stdlib.h>
-#include "../Functions/FFT.h"
-//#include "../Other/mathextension.h"
+#include "FFT.h"
 
 using namespace std;
 
@@ -41,16 +39,13 @@ QAM::~QAM() {
 void QAM::compute_QAM(short *input, complex<short>* output, size_t samples) {
     complex<short> j1(0, 1);
 
-    //printf("%p\n", output);
     for (int i = 0; i < samples; i++) {
         output[i] = i_setpoints[input[i]] + q_setpoints[input[i]] * j1;
     }
 }
 
-//Inefficient implementation. O(n) = n
+//TODO Inefficient implementation. O(n) = n
 void QAM::compute_deQAM(complex<short> *input, short *output, size_t samples) {
-    //int *s = (int *) malloc (sizeof(int) * samples);
-
     for (int i = 0; i < samples; i++) {
         for (int j = 0; j < n; j++) {
             if (i_setpoints[j] == real(input[i]) && q_setpoints[j] == imag(input[i])) {
@@ -59,5 +54,4 @@ void QAM::compute_deQAM(complex<short> *input, short *output, size_t samples) {
             }
         }
     }
-    //return s;
 }

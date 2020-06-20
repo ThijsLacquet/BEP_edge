@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thijslaptop/Documents/BEP_edge/Functions/FFT.cpp
-FFT.h
-/home/thijslaptop/Documents/BEP_edge/Functions/FFT.h
-fftw3.h
--
-
 /home/thijslaptop/Documents/BEP_edge/Functions/FFT.h
 complex.h
 -
-
-/home/thijslaptop/Documents/BEP_edge/Functions/OFDM.cpp
-OFDM.h
-/home/thijslaptop/Documents/BEP_edge/Functions/OFDM.h
-FFT.h
-/home/thijslaptop/Documents/BEP_edge/Functions/FFT.h
 
 /home/thijslaptop/Documents/BEP_edge/Functions/OFDM.h
 complex.h
@@ -31,13 +19,11 @@ FFT.h
 /home/thijslaptop/Documents/BEP_edge/Functions/QAM.cpp
 QAM.h
 /home/thijslaptop/Documents/BEP_edge/Functions/QAM.h
-stdexcept
--
 math.h
 -
 stdlib.h
 -
-../Functions/FFT.h
+FFT.h
 /home/thijslaptop/Documents/BEP_edge/Functions/FFT.h
 
 /home/thijslaptop/Documents/BEP_edge/Functions/QAM.h
@@ -46,56 +32,12 @@ stdlib.h
 complex.h
 -
 
-/home/thijslaptop/Documents/BEP_edge/Network/TCPClient.cpp
-sys/socket.h
--
-arpa/inet.h
--
-unistd.h
--
-stdexcept
--
-TCPClient.h
-/home/thijslaptop/Documents/BEP_edge/Network/TCPClient.h
-
-/home/thijslaptop/Documents/BEP_edge/Network/TCPClient.h
-arpa/inet.h
--
-
-/home/thijslaptop/Documents/BEP_edge/Network/TCPServer.cpp
-sys/socket.h
--
-arpa/inet.h
--
-unistd.h
--
-stdexcept
--
-TCPServer.h
-/home/thijslaptop/Documents/BEP_edge/Network/TCPServer.h
-
 /home/thijslaptop/Documents/BEP_edge/Network/TCPServer.h
 arpa/inet.h
 -
 
-/home/thijslaptop/Documents/BEP_edge/Network/UDP.cpp
-sys/socket.h
--
-unistd.h
--
-stdexcept
--
-netinet/in.h
--
-UDP.h
-/home/thijslaptop/Documents/BEP_edge/Network/UDP.h
-
 /home/thijslaptop/Documents/BEP_edge/Network/UDP.h
 arpa/inet.h
--
-
-/home/thijslaptop/Documents/BEP_edge/Other/mathextension.h
-complex.h
 -
 
 /home/thijslaptop/Documents/BEP_edge/main.cpp
@@ -115,8 +57,6 @@ complex.h
 -
 Functions/QAM.h
 /home/thijslaptop/Documents/BEP_edge/Functions/QAM.h
-Other/mathextension.h
-/home/thijslaptop/Documents/BEP_edge/Other/mathextension.h
 thread
 -
 Functions/OFDM.h

@@ -4,15 +4,11 @@
 #include <netinet/in.h>
 #include "UDP.h"
 
-#define k 5
-
 UDP::UDP(__int16_t port) {
     address.sin_family = AF_INET; //Set address family for the internet
     address.sin_addr.s_addr = INADDR_ANY; //Set client ip to all possible ip's
     address.sin_port = htons(port); //Convert port to right data type
 
-    //memset(&server_address, 0, sizeof(server_address));
-    //memset(&client_address, 0, sizeof(client_address));
 
     sock = socket(address.sin_family, SOCK_DGRAM, 0); //Protocol 0 for IP packets
 

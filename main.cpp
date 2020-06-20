@@ -6,19 +6,15 @@
 #include "Functions/FFT.h"
 #include <complex.h>
 #include "Functions/QAM.h"
-#include "Other/mathextension.h"
 #include <thread>
-#include "Functions/OFDM.h"
 #include <time.h>
 #include <fftw3.h>
 
 #define NUMBEROFREQUESTHANDLERS 8
-#define DATASIZE 10240 //In bytes
+#define DATASIZE 24576 //In bytes
 #define FFTCMND 0
 #define QAM16CMND 2
 #define DEQAM16CMND 3
-#define OFDM1024CMND 4
-#define DEOFDM1024CMND 5
 
 using namespace std;
 
@@ -47,20 +43,20 @@ void requestHandlerThread(__int16_t serverPort, bool *running, char* name, bool 
 
     QAM myQAM = QAM(16);
     FFT myFFT = FFT();
-    //OFDM myOFDM = OFDM(1024);
 
     TCPServer myTCPServer = TCPServer(serverPort);
     struct buffer *buffer = (struct buffer*) malloc (sizeof(struct buffer));
     struct response *response = (struct response*) malloc (sizeof(struct response));
 
     while (*running) {
+        //TODO do not hold the thread while waiting for a TCP client
         myTCPServer.listenAccept();
         printf("Accepted client at port %d\n", serverPort);
 
+        //TODO do not lock the loop while waiting for a TCP message
         while (myTCPServer.readTCP(buffer, sizeof(struct buffer)) > 0 && *running) {
             if (buffer != NULL) {
                 if (buffer->data != NULL) {
-                    //printf("Command: %c, id: %d\n", buffer->command, buffer->id);
                     response->beginTime = buffer->beginTime;
 
                     switch (buffer->command) {
@@ -78,7 +74,6 @@ void requestHandlerThread(__int16_t serverPort, bool *running, char* name, bool 
                                 n_abs = buffer->n;
                                 mode = FFTW_FORWARD;
                             }
-
                             for (int i = 0; i < buffer->length / n_abs; i++) {
                                 buffer_segment = &(((complex<short> *) buffer->data)[i * n_abs]);
                                 response_segment = &(((complex<short> *) response->data)[i * n_abs]);
@@ -151,7 +146,7 @@ int main() {
         }
     }
 
-    //Wait till are threads are stopped
+    //Wait till are threads are stopped TODO threads do not terminate if no TCP message is received
     for (int i = 0; i < NUMBEROFREQUESTHANDLERS; i++) {
         if (complete[i] == false) { //Reset counter if thread did not stop
             i = 0;

@@ -1,6 +1,5 @@
 #include "FFT.h"
 #include <fftw3.h>
-//#include <inc/cufftw.h>
 
 using namespace std;
 
